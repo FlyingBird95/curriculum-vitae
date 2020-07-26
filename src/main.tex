@@ -1,0 +1,84 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{green} 
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry}
+\usepackage{footmisc}
+
+\name{Patrick}{Vogel}
+\title{Curriculum Vitae}
+\address{Oosterweg 45A}{9724CC Groningen}{The Netherlands}
+\phone[mobile]{+31~6~57~38~37~38}
+\email{patrickvogel@live.nl}
+\homepage{github.com/FlyingBird95}
+\extrainfo{14-10-1995}
+\photo[64pt][0.4pt]{about} 
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2017--2019}{Master Computing Science}{University of Groningen}{Groningen}{}{track: Software Engineering and Distributed Systems}
+\cventry{2014--2017}{Bachelor Computing Science}{University of Groningen}{Groningen}{}{}
+\cventry{2008--2014}{VWO}{Kamerlingh Onnes College}{Groningen}{}{}  % arguments 3 to 6 can be left empty
+
+\subsection{Master thesis}
+\cvitem{Title}{\emph{Monitoring Cost and Waste in Cloud Computing}}
+\cvitem{Supervisors}{Dr. V. Andrikopoulos, prof. dr. A. Lazovik}
+
+\subsection{Research Internship}
+\cvitem{Title}{\emph{Combining Execution Paths of Multiple Requests in Flask Monitoring Dashboard}}
+\cvitem{Supervisor}{Dr. M.F. Lungu}
+\cvitem{Final grade}{9.5 / 10}
+
+\subsection{Bachelor thesis}
+\cvitem{Title}{\emph{A Dashboard for Automatic Monitoring Python Web Services}}
+\cvitem{Supervisors}{Dr. M.F. Lungu, dr. V. Andrikopoulos}
+\cvitem{Description}{A Monitoring Tool for the evolving performance of a Python Flask application}
+\cvitem{Final grade}{8.5 / 10}
+
+
+\section{Experience}
+\cventry{2018}{Teaching Assistant}{University of Groningen}{Groningen}{}{Teaching assistant for the course Software Engineering for a period of a full semester.}
+\cventry{2015}{Teaching Assistant}{University of Groningen}{Groningen}{}{Teaching assistant for the course Imperative Programming for a period of a half semester.}
+
+\subsection{Open Source Project}
+\cvitem{Flask Monitoring Dashboard}{My bachelor thesis project is publicly available on Github. Since it launched in 2017, it grew in popularity, with over 150,000 downloads and over 360 Github stars as of \today. I'm still the main developer of this repository, although several other students and developers contributed to this. Github repo: \url{https://github.com/flask-dashboard/Flask-MonitoringDashboard}.}
+
+
+\clearpage
+\section{Programming Languages}
+\cvitemwithcomment{Java}{Expert}{Also expert on Scala}
+\cvitemwithcomment{Python}{Expert}{}
+\cvitemwithcomment{Web-development}{Expert}{Expert on HTML, CSS, JQuery, Javascript, Typescript and SQL.}
+\cvitemwithcomment{C}{Intermediate}{Learned this in 2014, but I don't use it actively anymore.}
+\cvitemwithcomment{C\#/C++}{Intermediate}{}
+
+\section{Database experience}
+\cvitemwithcomment{SQL}{Expert}{Expert on SQL, MySQl, PostgreSQL and SQLite.}
+\cvitemwithcomment{NoSQL}{Expert}{Expert on Cassandra, Prometheus and intermediate on MongoDB.}
+
+\section{Natural Languages}
+\cvitem{Dutch}{Expert}
+\cvitem{English}{Expert}
+\cvitem{German}{Intermediate}
+
+\section{Publications}
+\cvitem{Paper}{\emph{A Low-Effort Analytics Platform for Visualizing Evolving Flask-Based Python Web Services} -- 2017 IEEE Working Conference on Software Visualization}
+\cvitem{Bachelor thesis}{\emph{A Dashboard for Automatic Monitoring Python Web Services} -- 2017 fse.studenttheses.ub.rug.nl}
+
+\section{Interests}
+\cvitem{Software Engineering}{Led a team of 8 people on a Software Engineering task, for a period of half a year.}
+\cvitem{Software Architecture}{Familiar with the concepts of designing software components.}
+\cvitem{Distributed Systems}{Familiar with technologies like Docker, Message Queuing software, Cloud computing, Load balancing and Apache Spark.}
+
+\section{References}
+\cvitem{Paper}{\url{http://vissoft17.dcc.uchile.cl/program.html}}
+\cvitem{Personal site}{\url{https://flyingbird95.github.io/}}
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications} 
+\end{document}
